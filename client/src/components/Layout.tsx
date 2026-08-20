@@ -13,9 +13,8 @@ const NAV = [
 ];
 
 function navClass({ isActive }: { isActive: boolean }) {
-  return `${linkBase} ${
-    isActive ? "bg-white/10 text-white" : "text-slate-300 hover:text-white"
-  }`;
+  return `${linkBase} ${isActive ? "bg-white/10 text-white" : "text-slate-300 hover:text-white"
+    }`;
 }
 
 function AuthWidget() {
